@@ -1,2 +1,9 @@
 # environment
 /.idea/
+
+# vendors
+vendor/
+composer.lock
+
+# tests
+phpunit.xml

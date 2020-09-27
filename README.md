@@ -1,8 +1,20 @@
 # PHP templates
 
+run tests:
 ```
-Singleton — это порождающий паттерн проектирования, который гарантирует,
-что у класса есть только один экземпляр, и предоставляет к нему глобальную
-точку доступа.
+make tests.creational
 ```
-[Singleton](Singleton)
+run tests exclusively for `creational` templates
+```
+make tests.creational
+```
+run tests exclusively for `structual` templates
+```
+make tests.structual
+```
+run tests exclusively for `behavioral` templates
+```
+make tests.behavioral
+```
+
+[Singleton](/src/Singleton/Singleton.php)
