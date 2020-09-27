@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Singleton;
+namespace App\Creational\Singleton;
 
 /**
  * Class Singleton

@@ -1,5 +1,8 @@
 # PHP templates
 
+**Creational**  
+* [Singleton](/src/Creational/Singleton/Singleton.php)
+
 run tests:
 ```
 make tests.creational
@@ -16,5 +19,3 @@ run tests exclusively for `behavioral` templates
 ```
 make tests.behavioral
 ```
-
-[Singleton](/src/Singleton/Singleton.php)
