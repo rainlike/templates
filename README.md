@@ -42,3 +42,6 @@ run tests exclusively for `behavioral` templates
 ```
 make tests.behavioral
 ```
+
+© по мотивам
+[designpatternsphp.readthedocs.io](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
