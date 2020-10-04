@@ -1,7 +1,16 @@
 # PHP templates
 
 **Creational**  
-* [Singleton](/src/Creational/Singleton/Singleton.php)
+* Singleton
+```
+Singleton — гарантирует, что у класса есть только один экземпляр,
+и предоставляет к нему глобальную точку доступа.
+```
+* Factory Method
+```
+Factory Method — определяет общий интерфейс для создания объектов в суперклассе,
+позволяя подклассам изменять тип создаваемых объектов.
+```
 
 run tests:
 ```

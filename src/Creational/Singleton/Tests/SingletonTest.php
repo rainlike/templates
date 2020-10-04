@@ -1,9 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Creational\Singleton;
+namespace App\Creational\Singleton\Tests;
 
 use PHPUnit\Framework\TestCase;
+
+use App\Creational\Singleton\Singleton;
 
 /**
  * Class SingletonTest

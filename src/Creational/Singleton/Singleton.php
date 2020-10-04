@@ -5,9 +5,6 @@ namespace App\Creational\Singleton;
 
 /**
  * Class Singleton
- * Singleton — это порождающий паттерн проектирования, который гарантирует,
- *  что у класса есть только один экземпляр, и предоставляет к нему глобальную
- *  точку доступа.
  * @package app\Singleton
  */
 class Singleton
