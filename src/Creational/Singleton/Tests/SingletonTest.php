@@ -9,7 +9,7 @@ use App\Creational\Singleton\Singleton;
 
 /**
  * Class SingletonTest
- * @package app\Singleton
+ * @package App\Creational\Singleton\Tests
  */
 class SingletonTest extends TestCase
 {

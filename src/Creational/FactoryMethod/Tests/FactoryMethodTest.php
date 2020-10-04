@@ -12,7 +12,7 @@ use App\Creational\FactoryMethod\StdoutLoggerFactory;
 
 /**
  * Class FactoryMethodTest
- * @package App\Creational\FactoryMethod
+ * @package App\Creational\FactoryMethod\Tests
  */
 class FactoryMethodTest extends TestCase
 {
