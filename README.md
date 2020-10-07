@@ -1,10 +1,17 @@
-# PHP templates
+# Шаблоны проектирования (паттерны) на PHP
 
-**Creational**  
+**Порождающие шаблоны проектирования (Creational)**  
 * **Singleton**
 ```
 Позволяет содержать только один экземпляр объекта в приложении,
 которое будет обрабатывать все обращения, запрещая создавать новый экземпляр.
+```
+* **Abstract Factory**
+```
+Позволяет создавать серии связанных или зависимых объектов без указания их конкретных классов.
+Обычно все созданные классы реализуют один и тот же интерфейс.
+Клиент абстрактной фабрики не заботится о том, как создаются эти объекты,
+он просто знает, как они работают вместе.
 ```
 * **Static Factory**
 ```
@@ -25,23 +32,23 @@
 что вы можете вынести реализацию создания объектов в подклассы.
 В простых случаях, этот абстрактный класс может быть только интерфейсом.
 ```
-
-run tests:
+___
+запуск тестов:
 ```
 make tests.creational
 ```
-run tests exclusively for `creational` templates
+запуск тестов для порождающих (`creational`) шаблонов
 ```
 make tests.creational
 ```
-run tests exclusively for `structual` templates
+запуск тестов для структурных (`structual`) шаблонов
 ```
 make tests.structual
 ```
-run tests exclusively for `behavioral` templates
+запуск тестов для поведенческих (`behavioral`) шаблонов
 ```
 make tests.behavioral
 ```
-
+___
 © по мотивам
 [designpatternsphp.readthedocs.io](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
