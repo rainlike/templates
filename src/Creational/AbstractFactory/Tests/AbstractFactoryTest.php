@@ -38,4 +38,3 @@ class AbstractFactoryTest extends TestCase
         $this->assertInstanceOf(CsvWriter::class, $writerFactory->createCsvWriter());
     }
 }
-
