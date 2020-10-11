@@ -7,9 +7,11 @@ use InvalidArgumentException;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Creational\StaticFactory\FormatNumber;
-use App\Creational\StaticFactory\FormatString;
-use App\Creational\StaticFactory\StaticFactory;
+use App\Creational\StaticFactory\{
+    FormatNumber,
+    FormatString,
+    StaticFactory
+};
 
 /**
  * Class StaticFactoryTest

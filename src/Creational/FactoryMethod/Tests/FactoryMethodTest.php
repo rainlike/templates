@@ -5,10 +5,12 @@ namespace App\Creational\FactoryMethod\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Creational\FactoryMethod\FileLogger;
-use App\Creational\FactoryMethod\StdoutLogger;
-use App\Creational\FactoryMethod\FileLoggerFactory;
-use App\Creational\FactoryMethod\StdoutLoggerFactory;
+use App\Creational\FactoryMethod\{
+    FileLogger,
+    StdoutLogger,
+    FileLoggerFactory,
+    StdoutLoggerFactory
+};
 
 /**
  * Class FactoryMethodTest

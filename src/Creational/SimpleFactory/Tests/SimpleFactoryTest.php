@@ -5,8 +5,10 @@ namespace App\Creational\SimpleFactory\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Creational\SimpleFactory\Bicycle;
-use App\Creational\SimpleFactory\SimpleFactory;
+use App\Creational\SimpleFactory\{
+    Bicycle,
+    SimpleFactory
+};
 
 /**
  * Class SimpleFactoryTest

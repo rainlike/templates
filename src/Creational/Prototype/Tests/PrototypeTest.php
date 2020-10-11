@@ -5,8 +5,10 @@ namespace App\Creational\Prototype\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Creational\Prototype\BarBookPrototype;
-use App\Creational\Prototype\FooBookPrototype;
+use App\Creational\Prototype\{
+    BarBookPrototype,
+    FooBookPrototype
+};
 
 /**
  * Class PrototypeTest

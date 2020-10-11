@@ -5,11 +5,13 @@ namespace App\Creational\AbstractFactory\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Creational\AbstractFactory\CsvWriter;
-use App\Creational\AbstractFactory\JsonWriter;
-use App\Creational\AbstractFactory\WriterFactory;
-use App\Creational\AbstractFactory\UnixWriterFactory;
-use App\Creational\AbstractFactory\WinWriterFactory;
+use App\Creational\AbstractFactory\{
+    CsvWriter,
+    JsonWriter,
+    WriterFactory,
+    WinWriterFactory,
+    UnixWriterFactory
+};
 
 /**
  * Class AbstractFactoryTest
